@@ -162,11 +162,43 @@ h1 {
     color: #F9FAF8;
     border: none;
     margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .blah h4 {
     font-size: 30px;
+    margin: 0;
+}
+
+.blah p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.page-four button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid;
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
